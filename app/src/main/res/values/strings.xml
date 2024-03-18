@@ -1,0 +1,100 @@
+<resources>
+    <!-- String untuk judul-judul Activity -->
+    <string name="app_name">Dino Pedia</string>
+    <string name="info_dino_icon">Ikon Dino</string>
+    <string name="info_dino_name">Family Dinosaurus</string>
+    <string name="info_dino_family">Detail Family Dinosaurus</string>
+    <string name="info_dino_detaildino">Detail Dinosaurus</string>
+    <string-array name="info_dino_name">
+        <item>Sauropodomorpha</item>
+        <item>Theropoda</item>
+        <item>Ornithischia</item>
+        <item>Ceratopsia</item>
+        <item>Hadrosauridae</item>
+        <item>Ankylosauria</item>
+        <item>Therizinosauria</item>
+        <item>Pterosauria</item>
+    </string-array>
+    <string-array name="info_dino_icon">
+        <item>@drawable/sau</item>
+        <item>@drawable/thero</item>
+        <item>@drawable/orni</item>
+        <item>@drawable/cera</item>
+        <item>@drawable/hadro</item>
+        <item>@drawable/anky</item>
+        <item>@drawable/therizi</item>
+        <item>@drawable/ptero</item>
+    </string-array>
+    <string-array name="info_dino_family">
+        <item>Sauropodomorpha
+            Deskripsi: Sauropodomorpha adalah kelompok Dinosaurus herbivora yang memiliki tubuh besar dan leher panjang. Mereka merupakan nenek moyang dari kelompok Sauropoda yang terkenal, seperti Brachiosaurus dan Diplodocus.
+            Periode Hidup: Hidup selama periode Triassic hingga Cretaceous.
+            Karakteristik Fisik: Tubuh besar, leher panjang, dan kaki yang kokoh.
+            Habitat dan Lingkungan: Biasanya ditemukan di daratan dengan vegetasi lebat seperti hutan atau dataran rendah.
+            Perilaku: Sauropodomorpha umumnya dianggap sebagai hewan yang lamban dan mungkin berkelompok dalam kawanan kecil untuk melindungi diri dari predator.
+            Klasifikasi: Kelompok ini termasuk dalam ordo Saurischia.</item>
+      <item> Theropoda
+          Deskripsi: Theropoda adalah kelompok Dinosaurus karnivora yang memiliki ciri-ciri seperti cakar tajam dan gigi taring yang tajam. Beberapa anggota terkenal termasuk Tyrannosaurus rex dan Velociraptor.
+          Periode Hidup: Hidup selama periode Jurassic hingga Cretaceous.
+          Karakteristik Fisik: Cakar tajam, gigi taring, dan postur bipedal.
+          Habitat dan Lingkungan: Ditemukan di berbagai lingkungan, mulai dari hutan hingga padang rumput.
+          Perilaku: Theropoda umumnya dikenal sebagai pemburu yang efisien, dengan beberapa spesies bersifat predator tunggal dan yang lain mungkin berburu dalam kelompok.
+          Klasifikasi: Kelompok ini termasuk dalam ordo Saurischia.</item>
+        <item>Ornithischia:
+            Nama Famili: Ornithischia
+            Deskripsi: Ornithischia adalah kelompok Dinosaurus herbivora yang memiliki berbagai bentuk dan ukuran, termasuk yang mirip dengan burung dan reptil. Contoh terkenal termasuk Triceratops dan Stegosaurus.
+            Periode Hidup: Hidup selama periode Jurassic hingga Cretaceous.
+            Karakteristik Fisik: Biasanya memiliki tanduk, tanduk, atau bony armor. Sebagian besar memiliki postur kuadrupedal.
+            Habitat dan Lingkungan: Menghuni berbagai habitat, termasuk hutan, dataran banjir, dan padang rumput.
+            Perilaku: Sebagian besar dianggap sebagai herbivora yang mungkin berkelompok untuk melindungi diri dari predator.
+            Klasifikasi: Kelompok ini termasuk dalam ordo Ornithischia.</item>
+        <item>Ceratopsia:
+            Nama Famili: Ceratopsia
+            Deskripsi: Ceratopsia adalah kelompok Dinosaurus herbivora yang memiliki ciri-ciri tanduk dan lempeng tulang yang mencolok di kepala. Triceratops adalah contoh terkenal dari kelompok ini.
+            Periode Hidup: Hidup selama periode Cretaceous.
+            Karakteristik Fisik: Tanduk dan lempeng tulang di kepala, tubuh besar, dan kaki yang kuat.
+            Habitat dan Lingkungan: Umumnya ditemukan di padang rumput atau dataran terbuka.
+            Perilaku: Mungkin hidup secara berkelompok dan menggunakan tanduk dan lempeng tulang sebagai pertahanan dan untuk interaksi sosial.
+            Klasifikasi: Kelompok ini termasuk dalam ordo Ornithischia. </item>
+        <item>Hadrosauridae:
+            Nama Famili: Hadrosauridae
+            Deskripsi: Hadrosauridae, juga dikenal sebagai "dinosaurus bebek", adalah kelompok Dinosaurus herbivora yang memiliki mulut mirip paruh bebek dan sering kali hidup secara berkelompok.
+            Periode Hidup: Hidup selama periode Cretaceous.
+            Karakteristik Fisik: Mulut mirip paruh bebek, kaki yang kuat, dan tubuh besar.
+            Habitat dan Lingkungan: Biasanya ditemukan di dataran rendah atau dataran banjir yang luas.
+            Perilaku: Mungkin hidup dalam kawanan besar untuk melindungi diri dari predator dan menggunakan suara untuk komunikasi dalam kelompok.
+            Klasifikasi: Kelompok ini termasuk dalam ordo Ornithischia.</item>
+        <item>Ankylosauria:
+            Nama Famili: Ankylosauria
+            Deskripsi: Ankylosauria adalah kelompok Dinosaurus herbivora yang memiliki tubuh yang dilapisi dengan armor tulang dan cakar tajam di ekor untuk pertahanan.
+            Periode Hidup: Hidup selama periode Jurassic hingga Cretaceous.
+            Karakteristik Fisik: Armor tulang, cakar tajam, dan ekor yang kuat.
+            Habitat dan Lingkungan: Umumnya ditemukan di berbagai lingkungan, termasuk hutan dan dataran terbuka.
+            Perilaku: Mungkin hidup secara soliter atau dalam kelompok kecil dan menggunakan armor dan cakar untuk pertahanan diri.
+            Klasifikasi: Kelompok ini termasuk dalam ordo Ornithischia.</item>
+        <item>Therizinosauria:
+            Nama Famili: Therizinosauria
+            Deskripsi: Therizinosauria adalah kelompok Dinosaurus herbivora atau omnivora yang memiliki ciri-ciri seperti cakar yang panjang dan berbentuk melengkung.
+            Periode Hidup: Hidup selama periode Cretaceous.
+            Karakteristik Fisik: Cakar panjang dan melengkung, tubuh besar, dan leher panjang.
+            Habitat dan Lingkungan: Biasanya ditemukan di daerah</item>
+    </string-array>
+
+    <!-- String untuk deskripsi, informasi, dan label -->
+    <string name="label_description">Deskripsi:</string>
+    <string name="label_period">Periode Hidup:</string>
+    <string name="label_physical_characteristics">Karakteristik Fisik:</string>
+    <string name="label_habitat">Habitat dan Lingkungan:</string>
+    <string name="label_behavior">Perilaku:</string>
+    <string name="label_classification">Klasifikasi:</string>
+    <string name="label_food">Makanan:</string>
+    <string name="label_length">Panjang:</string>
+    <string name="label_height">Tinggi:</string>
+    <string name="label_weight">Bobot:</string>
+    <string name="label_weakness">Kelemahan:</string>
+
+    <!-- String untuk tombol dan tindakan -->
+    <string name="button_about">Tentang</string>
+    <string name="button_back">Kembali</string>
+
+</resources>
