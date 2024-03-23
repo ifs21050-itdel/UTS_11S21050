@@ -7,4 +7,8 @@ data class Family(
     var name: String,
     var icon: Int,
     var description: String,
-    ) : Parcelable
+    var characteristic: String,
+    var habitat: String,
+    var behavior: String,
+    var classification: String,
+) : Parcelable

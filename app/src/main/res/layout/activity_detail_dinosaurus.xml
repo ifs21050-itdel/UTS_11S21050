@@ -6,144 +6,195 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:contentDescription="@string/app_name"
-    tools:context=".DetailActivity">
+    tools:context=".DetailDinosaurus">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="50dp">
         <ImageView
-            android:id="@+id/dinoIcon"
+            android:id="@+id/dinoGambar"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_marginTop="16dp"
-            android:contentDescription="@string/info_dino_icon"
-            android:src="@drawable/sau"
+            android:contentDescription="@string/dino_gambar"
+            android:src="@drawable/apa"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="ImageContrastCheck" />
         <TextView
-            android:id="@+id/dinoName"
+            android:id="@+id/dinoNama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/info_dino_name"
+            android:text="@string/dino_name"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf=
-                "@+id/dinoIcon" />
+                "@+id/dinoGambar" />
         <TextView
-            android:id="@+id/dinoDesc"
+            android:id="@+id/dinoDesk"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/info_dino_desc"
+            android:text="@string/dino_desc"
             android:textAlignment="textStart"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf=
-                "@+id/dinoName" />
+                "@+id/dinoNama" />
         <TextView
-            android:id="@+id/dinoTitCharac"
+            android:id="@+id/dinoTitGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
-            android:text="@string/info_dino_characteristic"
+            android:text="@string/dino_group"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf=
-                "@+id/dinoDesc" />
+                "@+id/dinoDesk" />
         <TextView
-            android:id="@+id/dinoCharacteristic"
+            android:id="@+id/dinoGroup"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/info_dino_characteristic"
+            android:text="@string/dino_group"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf=
-                "@+id/dinoTitCharac" />
+                "@+id/dinoTitGroup" />
         <TextView
-            android:id="@+id/dinoTitHabitat"
+            android:id="@+id/dinoTitHab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
-            android:text="@string/info_dino_habitat"
+            android:text="@string/dino_habitat"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf=
-                "@+id/dinoCharacteristic" />
+                "@+id/dinoGroup" />
         <TextView
-            android:id="@+id/dinoHabitat"
+            android:id="@+id/dinoHab"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/info_dino_habitat"
+            android:text="@string/dino_habitat"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf=
-                "@+id/dinoTitHabitat" />
+                "@+id/dinoTitHab" />
         <TextView
-            android:id="@+id/dinoTitBehavior"
+            android:id="@+id/dinoTitFood"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
-            android:text="@string/info_dino_behavior"
+            android:text="@string/dino_food"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf=
-                "@+id/dinoHabitat" />
+                "@+id/dinoHab" />
         <TextView
-            android:id="@+id/dinoBehavior"
+            android:id="@+id/dinoFood"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/info_dino_behavior"
+            android:text="@string/dino_food"
             android:textAlignment="textStart"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf=
-                "@+id/dinoTitBehavior" />
+                "@+id/dinoTitFood" />
         <TextView
-            android:id="@+id/dinoTitClassification"
+            android:id="@+id/dinoTitTinggi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
-            android:text="@string/info_dino_classification"
+            android:text="@string/dino_tinggi"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf=
-                "@+id/dinoBehavior" />
+                "@+id/dinoFood" />
         <TextView
-            android:id="@+id/dinoClassification"
+            android:id="@+id/dinoTinggi"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:text="@string/info_dino_classification"
+            android:text="@string/dino_tinggi"
             android:textAlignment="textStart"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf=
-                "@+id/dinoTitClassification" />
+                "@+id/dinoTitTinggi" />
+        <TextView
+            android:id="@+id/dinoTitBobot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/dino_bobot"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf=
+                "@+id/dinoTinggi" />
+        <TextView
+            android:id="@+id/dinoBobot"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/dino_bobot"
+            android:textAlignment="textStart"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf=
+                "@+id/dinoTitBobot" />
+        <TextView
+            android:id="@+id/dinoTitKelemahan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/dino_kelemahan"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf=
+                "@+id/dinoBobot" />
+        <TextView
+            android:id="@+id/dinoKelemahan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/dino_kelemahan"
+            android:textAlignment="textStart"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf=
+                "@+id/dinoTitKelemahan" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

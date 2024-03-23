@@ -15,22 +15,31 @@
         tools:ignore="UseCompoundDrawables">
 
         <ImageView
-            android:id="@+id/dinoIcon"
+            android:id="@+id/dinoGambar"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:contentDescription="@string/info_dino_icon"
-            app:srcCompat="@drawable/sau"
+            android:contentDescription="@string/dino_gambar"
+            app:srcCompat="@drawable/apa"
             tools:ignore="ImageContrastCheck" />
 
         <TextView
-            android:id="@+id/dinoName"
+            android:id="@+id/dinoNama"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
             android:layout_marginStart="10dp"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:text="@string/info_dino_name"
+            android:text="@string/dino_name"
             android:textSize="30sp"
             android:textStyle="bold" />
+        <TextView
+            android:id="@+id/dinoGroup"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/dino_group"
+            android:textSize="20sp"/>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

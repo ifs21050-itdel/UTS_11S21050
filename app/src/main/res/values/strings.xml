@@ -1,12 +1,24 @@
 <resources>
-    <!-- String untuk judul-judul Activity -->
     <string name="app_name">Dino Pedia</string>
     <string name="info_dino_icon">Ikon Dino</string>
     <string name="info_dino_name">Family Dinosaurus</string>
-    <string name="info_dino_family">Detail Family Dinosaurus</string>
-    <string name="info_dino_detaildino">Detail Dinosaurus</string>
+    <string name="info_dino_desc">Deskripsi Family</string>
+    <string name="info_dino_characteristic">Karakteristik Family</string>
+    <string name="info_dino_habitat">Habitat Family</string>
+    <string name="info_dino_behavior">Perilaku Family</string>
+    <string name="info_dino_classification">Klasifikasi Family</string>
+    <string name="dino_name">Nama Dino</string>
+    <string name="dino_gambar">Gambar Dino</string>
+    <string name="dino_desc">Klasifikasi Family</string>
+    <string name="dino_group">Family Dino</string>
+    <string name="dino_habitat">Habitat Dino</string>
+    <string name="dino_food">Makanan Dino</string>
+    <string name="dino_tinggi">Tinggi Dino</string>
+    <string name="dino_bobot">Bobot Dino</string>
+    <string name="dino_kelemahan">Kelemahan Dino</string>
+
     <string-array name="info_dino_name">
-        <item>Sauropodomorpha</item>
+        <item>Sauropoda</item>
         <item>Theropoda</item>
         <item>Ornithischia</item>
         <item>Ceratopsia</item>
@@ -15,6 +27,7 @@
         <item>Therizinosauria</item>
         <item>Pterosauria</item>
     </string-array>
+
     <string-array name="info_dino_icon">
         <item>@drawable/sau</item>
         <item>@drawable/thero</item>
@@ -25,76 +38,228 @@
         <item>@drawable/therizi</item>
         <item>@drawable/ptero</item>
     </string-array>
-    <string-array name="info_dino_family">
-        <item>Sauropodomorpha
-            Deskripsi: Sauropodomorpha adalah kelompok Dinosaurus herbivora yang memiliki tubuh besar dan leher panjang. Mereka merupakan nenek moyang dari kelompok Sauropoda yang terkenal, seperti Brachiosaurus dan Diplodocus.
-            Periode Hidup: Hidup selama periode Triassic hingga Cretaceous.
-            Karakteristik Fisik: Tubuh besar, leher panjang, dan kaki yang kokoh.
-            Habitat dan Lingkungan: Biasanya ditemukan di daratan dengan vegetasi lebat seperti hutan atau dataran rendah.
-            Perilaku: Sauropodomorpha umumnya dianggap sebagai hewan yang lamban dan mungkin berkelompok dalam kawanan kecil untuk melindungi diri dari predator.
-            Klasifikasi: Kelompok ini termasuk dalam ordo Saurischia.</item>
-      <item> Theropoda
-          Deskripsi: Theropoda adalah kelompok Dinosaurus karnivora yang memiliki ciri-ciri seperti cakar tajam dan gigi taring yang tajam. Beberapa anggota terkenal termasuk Tyrannosaurus rex dan Velociraptor.
-          Periode Hidup: Hidup selama periode Jurassic hingga Cretaceous.
-          Karakteristik Fisik: Cakar tajam, gigi taring, dan postur bipedal.
-          Habitat dan Lingkungan: Ditemukan di berbagai lingkungan, mulai dari hutan hingga padang rumput.
-          Perilaku: Theropoda umumnya dikenal sebagai pemburu yang efisien, dengan beberapa spesies bersifat predator tunggal dan yang lain mungkin berburu dalam kelompok.
-          Klasifikasi: Kelompok ini termasuk dalam ordo Saurischia.</item>
-        <item>Ornithischia:
-            Nama Famili: Ornithischia
-            Deskripsi: Ornithischia adalah kelompok Dinosaurus herbivora yang memiliki berbagai bentuk dan ukuran, termasuk yang mirip dengan burung dan reptil. Contoh terkenal termasuk Triceratops dan Stegosaurus.
-            Periode Hidup: Hidup selama periode Jurassic hingga Cretaceous.
-            Karakteristik Fisik: Biasanya memiliki tanduk, tanduk, atau bony armor. Sebagian besar memiliki postur kuadrupedal.
-            Habitat dan Lingkungan: Menghuni berbagai habitat, termasuk hutan, dataran banjir, dan padang rumput.
-            Perilaku: Sebagian besar dianggap sebagai herbivora yang mungkin berkelompok untuk melindungi diri dari predator.
-            Klasifikasi: Kelompok ini termasuk dalam ordo Ornithischia.</item>
-        <item>Ceratopsia:
-            Nama Famili: Ceratopsia
-            Deskripsi: Ceratopsia adalah kelompok Dinosaurus herbivora yang memiliki ciri-ciri tanduk dan lempeng tulang yang mencolok di kepala. Triceratops adalah contoh terkenal dari kelompok ini.
-            Periode Hidup: Hidup selama periode Cretaceous.
-            Karakteristik Fisik: Tanduk dan lempeng tulang di kepala, tubuh besar, dan kaki yang kuat.
-            Habitat dan Lingkungan: Umumnya ditemukan di padang rumput atau dataran terbuka.
-            Perilaku: Mungkin hidup secara berkelompok dan menggunakan tanduk dan lempeng tulang sebagai pertahanan dan untuk interaksi sosial.
-            Klasifikasi: Kelompok ini termasuk dalam ordo Ornithischia. </item>
-        <item>Hadrosauridae:
-            Nama Famili: Hadrosauridae
-            Deskripsi: Hadrosauridae, juga dikenal sebagai "dinosaurus bebek", adalah kelompok Dinosaurus herbivora yang memiliki mulut mirip paruh bebek dan sering kali hidup secara berkelompok.
-            Periode Hidup: Hidup selama periode Cretaceous.
-            Karakteristik Fisik: Mulut mirip paruh bebek, kaki yang kuat, dan tubuh besar.
-            Habitat dan Lingkungan: Biasanya ditemukan di dataran rendah atau dataran banjir yang luas.
-            Perilaku: Mungkin hidup dalam kawanan besar untuk melindungi diri dari predator dan menggunakan suara untuk komunikasi dalam kelompok.
-            Klasifikasi: Kelompok ini termasuk dalam ordo Ornithischia.</item>
-        <item>Ankylosauria:
-            Nama Famili: Ankylosauria
-            Deskripsi: Ankylosauria adalah kelompok Dinosaurus herbivora yang memiliki tubuh yang dilapisi dengan armor tulang dan cakar tajam di ekor untuk pertahanan.
-            Periode Hidup: Hidup selama periode Jurassic hingga Cretaceous.
-            Karakteristik Fisik: Armor tulang, cakar tajam, dan ekor yang kuat.
-            Habitat dan Lingkungan: Umumnya ditemukan di berbagai lingkungan, termasuk hutan dan dataran terbuka.
-            Perilaku: Mungkin hidup secara soliter atau dalam kelompok kecil dan menggunakan armor dan cakar untuk pertahanan diri.
-            Klasifikasi: Kelompok ini termasuk dalam ordo Ornithischia.</item>
-        <item>Therizinosauria:
-            Nama Famili: Therizinosauria
-            Deskripsi: Therizinosauria adalah kelompok Dinosaurus herbivora atau omnivora yang memiliki ciri-ciri seperti cakar yang panjang dan berbentuk melengkung.
-            Periode Hidup: Hidup selama periode Cretaceous.
-            Karakteristik Fisik: Cakar panjang dan melengkung, tubuh besar, dan leher panjang.
-            Habitat dan Lingkungan: Biasanya ditemukan di daerah</item>
+
+    <string-array name="info_dino_description">
+        <item>Sauropodomorpha adalah kelompok Dinosaurus herbivora yang memiliki tubuh besar dan leher panjang. Mereka merupakan nenek moyang dari kelompok Sauropoda yang terkenal, seperti Brachiosaurus dan Diplodocus.</item>
+        <item>Theropoda adalah kelompok Dinosaurus karnivora yang memiliki ciri-ciri seperti cakar tajam dan gigi taring yang tajam. Beberapa anggota terkenal termasuk Tyrannosaurus rex dan Velociraptor.</item>
+        <item>Ornithischia adalah kelompok Dinosaurus herbivora yang memiliki berbagai bentuk dan ukuran, termasuk yang mirip dengan burung dan reptil. Contoh terkenal termasuk Triceratops dan Stegosaurus.</item>
+        <item>Ceratopsia adalah kelompok Dinosaurus herbivora yang memiliki ciri-ciri tanduk dan lempeng tulang yang mencolok di kepala. Triceratops adalah contoh terkenal dari kelompok ini.</item>
+        <item>Hadrosauridae juga dikenal sebagai "dinosaurus bebek", adalah kelompok Dinosaurus herbivora yang memiliki mulut mirip paruh bebek dan sering kali hidup secara berkelompok.</item>
+        <item>Ankylosauria adalah kelompok Dinosaurus herbivora yang memiliki tubuh yang dilapisi dengan armor tulang dan cakar tajam di ekor untuk pertahanan.;Periode Hidup: Hidup selama periode Triassic hingga Cretaceous.</item>
+        <item>Therizinosauria adalah kelompok Dinosaurus herbivora atau omnivora yang memiliki ciri-ciri seperti cakar yang panjang dan berbentuk melengkung.</item>
     </string-array>
 
-    <!-- String untuk deskripsi, informasi, dan label -->
-    <string name="label_description">Deskripsi:</string>
-    <string name="label_period">Periode Hidup:</string>
-    <string name="label_physical_characteristics">Karakteristik Fisik:</string>
-    <string name="label_habitat">Habitat dan Lingkungan:</string>
-    <string name="label_behavior">Perilaku:</string>
-    <string name="label_classification">Klasifikasi:</string>
-    <string name="label_food">Makanan:</string>
-    <string name="label_length">Panjang:</string>
-    <string name="label_height">Tinggi:</string>
-    <string name="label_weight">Bobot:</string>
-    <string name="label_weakness">Kelemahan:</string>
+    <string-array name="info_dino_characteristic">
+        <item>Sauropodomorpha bercirikan tubuh besar, leher panjang, dan kaki yang kokoh. </item>
+        <item>Theropoda bercirikan cakar tajam, gigi taring, dan postur bipedal. </item>
+        <item>Ornithischia bercirikan biasanya memiliki tanduk, tanduk, atau bony armor. Sebagian besar memiliki postur kuadrupedal.</item>
+        <item>Ceratopsia bercirikan tanduk dan lempeng tulang di kepala, tubuh besar, dan kaki yang kuat. </item>
+        <item>Hadrosauridae bercirikan mulut mirip paruh bebek, kaki yang kuat, dan tubuh besar.</item>
+        <item>Ankylosauria bercirikan armor tulang, cakar tajam, dan ekor yang kuat. </item>
+        <item>Therizinosauria bercirikan cakar panjang dan melengkung, tubuh besar, dan leher panjang. </item>
+    </string-array>
+
+    <string-array name="info_dino_habitat">
+        <item>Sauropodomorpha biasanya ditemukan di daratan dengan vegetasi lebat seperti hutan atau dataran rendah. </item>
+        <item>Theropoda ditemukan di berbagai lingkungan, mulai dari hutan hingga padang rumput.</item>
+        <item>Ornithischia menghuni berbagai habitat, termasuk hutan, dataran banjir, dan padang rumput.;</item>
+        <item>Ceratopsia umumnya ditemukan di padang rumput atau dataran terbuka. </item>
+        <item>Hadrosauridae biasanya ditemukan di dataran rendah atau dataran banjir yang luas.</item>
+        <item>Ankylosauria umumnya ditemukan di berbagai lingkungan, termasuk hutan dan dataran terbuka. </item>
+        <item>Therizinosauria biasanya ditemukan di daerah yang beragam, meskipun mereka cenderung lebih sering ditemukan di hutan dan wilayah yang berdekatan dengan air. </item>
+    </string-array>
+
+    <string-array name="info_dino_behavior">
+        <item>Sauropodomorpha umumnya dianggap sebagai hewan yang lamban dan mungkin berkelompok dalam kawanan kecil untuk melindungi diri dari predator. </item>
+        <item>Theropoda umumnya dikenal sebagai pemburu yang efisien, dengan beberapa spesies bersifat predator tunggal dan yang lain mungkin berburu dalam kelompok. </item>
+        <item>Ornithischia sebagian besar dianggap sebagai herbivora yang mungkin berkelompok untuk melindungi diri dari predator.</item>
+        <item>Ceratopsia mungkin hidup secara berkelompok dan menggunakan tanduk dan lempeng tulang sebagai pertahanan dan untuk interaksi sosial. </item>
+        <item>Hadrosauridae mungkin hidup dalam kawanan besar untuk melindungi diri dari predator dan menggunakan suara untuk komunikasi dalam kelompok.</item>
+        <item>Ankylosauria mungkin hidup secara soliter atau dalam kelompok kecil dan menggunakan armor dan cakar untuk pertahanan diri. </item>
+        <item>Therizinosauria hidup selama periode Cretaceous, yang berlangsung sekitar 145 hingga 66 juta tahun yang lalu. </item>
+    </string-array>
+
+    <string-array name="info_dino_classification">
+        <item>Sauropodomorpha termasuk dalam ordo Saurischia, yang juga mencakup kelompok theropoda.  </item>
+        <item>Theropoda Kelompok ini termasuk dalam ordo Saurischia. </item>
+        <item>Ornithischia Kelompok ini termasuk dalam ordo Ornithischia.</item>
+        <item>Ceratopsia Kelompok ini termasuk dalam ordo Ornithischia. </item>
+        <item>Hadrosauridae Kelompok ini termasuk dalam ordo Ornithischia.</item>
+        <item>Ankylosauria Kelompok ini termasuk dalam ordo Ornithischia. </item>
+        <item> Therizinosauria termasuk dalam ordo Theropoda, meskipun mereka memiliki ciri-ciri yang unik dan berbeda dari banyak spesies theropoda lainnya.</item>
+    </string-array>
+
+    <string-array name="dino_name">
+        <item>Apatosaurus</item>
+        <item>Brachiosaurus</item>
+        <item>Tyrannosaurus</item>
+        <item>Velociraptor</item>
+        <item>Triceratops</item>
+        <item>Stegosaurus</item>
+        <item>Styracosaurus</item>
+        <item>Parasaurolophus</item>
+        <item>Edmontosaurus</item>
+        <item>Ankylosaurus</item>
+        <item>Euoplocephalus</item>
+        <item>Therizinosaurus</item>
+        <item>Nothronychus</item>
+        <item>Pteranodon</item>
+        <item>Quetzalcoatlus</item>
+    </string-array>
+
+    <string-array name="dino_gambar">
+        <item>@drawable/apa</item>
+        <item>@drawable/brachi</item>
+        <item>@drawable/tyra</item>
+        <item>@drawable/velo</item>
+        <item>@drawable/trice</item>
+        <item>@drawable/stego</item>
+        <item>@drawable/styra</item>
+        <item>@drawable/para</item>
+        <item>@drawable/edmon</item>
+        <item>@drawable/angkyl</item>
+        <item>@drawable/euoplo</item>
+        <item>@drawable/teri</item>
+        <item>@drawable/noth</item>
+        <item>@drawable/ptera</item>
+        <item>@drawable/quet</item>
+    </string-array>
+
+    <string-array name="dino_desc">
+        <item>Apatosaurus adalah dinosaurus herbivora yang besar, memiliki leher panjang dan ekor yang juga panjang.</item>
+        <item>Brachiosaurus adalah dinosaurus sauropoda yang memiliki leher panjang dan tubuh besar.</item>
+        <item>Tyrannosaurus adalah dinosaurus karnivora raksasa dengan kepala besar dan gigi tajam.</item>
+        <item>Velociraptor adalah dinosaurus theropoda dengan tubuh kecil dan cakar yang mematikan.</item>
+        <item>Triceratops adalah dinosaurus herbivora besar dengan tubuh besar dan tiga tanduk pada kepala.</item>
+        <item>Stegosaurus adalah Dinosaurus herbivora dengan punggung yang dilapisi dengan piring tulang.</item>
+        <item>Styracosaurus adalah dinosaurus herbivora dengan tanduk besar pada hidung dan lempeng tulang di punggungnya.</item>
+        <item>Parasaurolophus adalah dinosaurus herbivora dengan kantung berongga di atas kepala yang digunakan untuk menghasilkan suara.</item>
+        <item>Edmontosaurus adalah dinosaurus herbivora dengan tubuh besar dan paruh yang mirip bebek.</item>
+        <item>Ankylosaurus adalah dinosaurus herbivora dengan tubuh yang dilapisi duri dan ekor yang berat dan bercabang.</item>
+        <item>Euoplocephalus adalah dinosaurus herbivora dengan tubuh yang dilapisi duri dan tulang menonjol di bagian kepala.</item>
+        <item>Therizinosaurus adalah dinosaurus herbivora dengan cakar yang besar dan tajam mirip pisau.</item>
+        <item>Nothronychus adalah dinosaurus herbivora dengan cakar besar dan tubuh yang ramping.</item>
+        <item>Pteranodon adalah dinosaurus terbang dengan sayap besar dan paruh panjang yang digunakan untuk menangkap ikan.</item>
+        <item>Quetzalcoatlus adalah Pterosauria terbesar dengan sayap yang sangat besar dan paruh panjang.</item>
+    </string-array>
+
+    <string-array name="dino_group">
+        <item>Sauropoda</item>
+        <item>Sauropoda</item>
+        <item>Theropoda</item>
+        <item>Theropoda</item>
+        <item>Ornithischia</item>
+        <item>Ornithischia</item>
+        <item>Ceratopsia</item>
+        <item>Ornithischia</item>
+        <item>Hadrosauridae</item>
+        <item>Ankylosauria</item>
+        <item>Ankylosauria</item>
+        <item>Therizinosauria</item>
+        <item>Therizinosauria</item>
+        <item>Pterosauria</item>
+        <item>Pterosauria</item>
+    </string-array>
+
+    <string-array name="dino_habitat">
+        <item>Apatosaurus tinggal di daratan dan dataran rendah.</item>
+        <item>Brachiosaurus tinggal di Daratan tinggi, hutan.</item>
+        <item>Tyrannosaurus tinggal di Daratan tinggi, hutan.</item>
+        <item>Velociraptor tinggal di Daratan tinggi, hutan.</item>
+        <item>Triceratops tinggal di Padang rumput, hutan.</item>
+        <item>Stegosaurus tinggal di Daratan tinggi, hutan.</item>
+        <item>Styracosaurus tinggal di Padang rumput, hutan.</item>
+        <item>Parasaurolophus tinggal di Daerah datar, hutan datar, dan padang rumput.</item>
+        <item>Edmontosaurus tinggal di Hutan datar, daerah datar, dan padang rumput.</item>
+        <item>Ankylosaurus tinggal di Hutan datar, daerah datar, dan padang rumput.</item>
+        <item>Euoplocephalus tinggal di Hutan datar, daerah datar, dan padang rumput.</item>
+        <item>Therizinosaurus tinggal di Hutan, daerah datar, dan padang rumput.</item>
+        <item>Nothronychus tinggal di Hutan, daerah datar, dan padang rumput.</item>
+        <item>Pteranodon tinggal di Wilayah pesisir, danau, sungai</item>
+        <item>Quetzalcoatlus tinggal di Wilayah pesisir, danau, sungai</item>
+    </string-array>
+
+    <string-array name="dino_food">
+        <item>Apatosaurus memakan Tumbuhan, seperti daun dan ranting.</item>
+        <item>Brachiosaurus memakan Tumbuhan, seperti daun dan pucuk-pucuk. </item>
+        <item>Tyrannosaurus memakan herbivora dan omnivora, seperti Triceratops, hadrosaurus, dan mangsa lainnya.</item>
+        <item>Velociraptor memakan Hewan kecil dan mangsa lainnya, serta mungkin dinosaurus lebih kecil.</item>
+        <item>Triceratops memakan Tumbuhan, seperti daun, pucuk, dan tanaman rendah lainnya</item>
+        <item>Stegosaurus memakan Tumbuhan, seperti daun, pucuk, dan tanaman rendah lainnya.</item>
+        <item>Styracosaurus memakan mbuhan, seperti daun, pucuk, dan tanaman rendah.</item>
+        <item>Parasaurolophus memakan mbuhan, seperti daun, pucuk, dan tanaman rendah.</item>
+        <item>Edmontosaurus memakan mbuhan, seperti daun, pucuk, dan tanaman rendah.</item>
+        <item>Ankylosaurus memakan mbuhan, seperti daun, pucuk, dan tanaman rendah.</item>
+        <item>Euoplocephalus memakan mbuhan, seperti daun, pucuk, dan tanaman rendah.</item>
+        <item>Therizinosaurus memakan mbuhan, seperti daun, pucuk, dan tanaman rendah.</item>
+        <item>Nothronychus memakan mbuhan, seperti daun, pucuk, dan tanaman rendah.</item>
+        <item>Pteranodon memakan Ikan dan hewan kecil lainnya yang ditemui di perairan.</item>
+        <item>Quetzalcoatlus memakan Ikan dan hewan kecil lainnya yang ditemui di perairan.</item>
+    </string-array>
+
+    <string-array name="dino_tinggi">
+        <item>Apatosaurus mempunyai tinggi Sekitar 4,5-5 meter.</item>
+        <item>Brachiosaurus mempunyai tinggi Sekitar 9-12 meter.</item>
+        <item>Tyrannosaurus mempunyai tinggi Sekitar 4-6 meter.</item>
+        <item>Velociraptor mempunyai tinggi Sekitar 0,5-0,6 meter.</item>
+        <item>Triceratops mempunyai tinggi Sekitar 3-3,5 meter.</item>
+        <item>Stegosaurus mempunyai tinggi Sekitar 4 meter.</item>
+        <item>Styracosaurus mempunyai tinggi Sekitar 2,5-3 meter.</item>
+        <item>Parasaurolophus mempunyai tinggi Sekitar 4-5 meter.</item>
+        <item>Edmontosaurus mempunyai tinggi Sekitar 3-4 meter.</item>
+        <item>Ankylosaurus mempunyai tinggi Sekitar 1,5-2 meter.</item>
+        <item>Euoplocephalus mempunyai tinggi Sekitar 2-2,5 meter.</item>
+        <item>Therizinosaurus mempunyai tinggi Sekitar 5-6 meter.</item>
+        <item>Nothronychus mempunyai tinggi Sekitar 3-4 meter.</item>
+        <item>Pteranodon mempunyai tinggi Sekitar 1,5 meter.</item>
+        <item>Quetzalcoatlus mempunyai tinggi Sekitar 3-4 meter. </item>
+    </string-array>
+
+    <string-array name="dino_bobot">
+        <item>Apatosaurus memiliki berat Diperkirakan sekitar 20-30 ton. </item>
+        <item>Brachiosaurus memiliki berat Diperkirakan sekitar 30-60 ton.</item>
+        <item>Tyrannosaurus memiliki berat Diperkirakan sekitar 8-14 ton.</item>
+        <item>Velociraptor memiliki berat Diperkirakan sekitar 15-20 kilogram.</item>
+        <item>Triceratops memiliki berat Diperkirakan sekitar 6-12 ton.</item>
+        <item>Stegosaurus memiliki berat Diperkirakan sekitar 5-7 ton.</item>
+        <item>Styracosaurus memiliki berat Diperkirakan sekitar 2-3 ton.</item>
+        <item>Parasaurolophus memiliki berat Diperkirakan sekitar 2,5-3,5 ton. </item>
+        <item>Edmontosaurus memiliki berat Diperkirakan sekitar 4-5 ton.</item>
+        <item>Ankylosaurus memiliki berat Diperkirakan sekitar 4-6 ton.</item>
+        <item>Euoplocephalus memiliki berat Diperkirakan sekitar 2,5-3 ton.</item>
+        <item>Therizinosaurus memiliki berat Diperkirakan sekitar 5-6 ton.</item>
+        <item>Nothronychus memiliki berat Diperkirakan sekitar 1-2 ton.</item>
+        <item>Pteranodon memiliki berat Diperkirakan sekitar 20-25 kilogram.</item>
+        <item>Quetzalcoatlus memiliki berat Diperkirakan sekitar 200-250 kilogram.</item>
+    </string-array>
+
+    <string-array name="dino_kelemahan">
+        <item>Apatosaurus memiliki Kelemahan: Ukuran besar dapat membuatnya rentan terhadap predator besar dan mengurangi kecepatan geraknya. </item>
+        <item>Brachiosaurus memiliki Kelemahan:Ukuran besar membuatnya rentan terhadap predator, serta mungkin memiliki masalah pernafasan karena ukuran tubuhnya.</item>
+        <item>Tyrannosaurus memiliki Kelemahan:Kemungkinan kecepatan yang rendah dibandingkan dengan beberapa predator lainnya, serta ukuran tubuh yang besar mungkin membuatnya rentan terhadap cedera.</item>
+        <item>Velociraptor memiliki Kelemahan:Ukuran tubuh yang kecil membuatnya rentan terhadap predator yang lebih besar, serta rentan terhadap cedera jika menyerang mangsa yang lebih besar.</item>
+        <item>Triceratops memiliki Kelemahan:Rentan terhadap serangan predator karena gerakan yang lambat, meskipun tanduknya dapat digunakan untuk pertahanan.</item>
+        <item>Stegosaurus memiliki Kelemahan:Rentan terhadap serangan predator karena gerakan yang lambat, serta mungkin memiliki keterbatasan manuver karena ukuran tubuh dan cakar yang besar.</item>
+        <item>Styracosaurus memiliki Kelemahan:Rentan terhadap serangan predator karena gerakan yang lambat, meskipun tanduknya dapat digunakan untuk pertahanan.</item>
+        <item>Parasaurolophus memiliki Kelemahan:Rentan terhadap serangan predator karena gerakan yang lambat, serta mungkin memiliki keterbatasan manuver karena ukuran tubuhnya.</item>
+        <item>Edmontosaurus memiliki Kelemahan:Rentan terhadap serangan predator karena gerakan yang lambat dan mungkin memiliki keterbatasan pertahanan.</item>
+        <item>Ankylosaurus memiliki Kelemahan:Kemungkinan gerakan yang lambat dan kekurangan dalam manuver, serta rentan terhadap serangan dari predator yang mengincar bagian tubuh yang tidak dilindungi.</item>
+        <item>Euoplocephalus memiliki Kelemahan: Kemungkinan gerakan yang lambat dan kekurangan dalam manuver, serta rentan terhadap serangan dari predator yang mengincar bagian tubuh yang tidak dilindungi.</item>
+        <item>Therizinosaurus memiliki Kelemahan: Meskipun memiliki cakar yang kuat, kemungkinan kecepatan gerakan yang lambat.</item>
+        <item>Nothronychus memiliki Kelemahan: Meskipun memiliki cakar yang kuat, kemungkinan kecepatan gerakan yang lambat dan rentan terhadap serangan predator yang lebih cepat.</item>
+        <item>Pteranodon memiliki Kelemahan: Rentan terhadap predator udara dan mungkin memiliki keterbatasan dalam manuver di darat.</item>
+        <item>Quetzalcoatlus memiliki Kelemahan: Rentan terhadap predator udara dan mungkin memiliki keterbatasan dalam manuver di darat.</item>
+    </string-array>
+
 
     <!-- String untuk tombol dan tindakan -->
     <string name="button_about">Tentang</string>
     <string name="button_back">Kembali</string>
+    <string name="ella_silaban">\n</string>
+    <string name="ifs21050">\n</string>
+    <string name="tampilkan_semua_dinosaurus">Tampilkan Semua Dinosaurus</string>
+    <string name="about">About</string>
+    <string name="menu_search" />
+    <string name="search_hint">\n</string>
 
 </resources>

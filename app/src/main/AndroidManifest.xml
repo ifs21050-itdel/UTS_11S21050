@@ -13,10 +13,16 @@
         android:theme="@style/Theme.DinoPedia"
         tools:targetApi="31">
         <activity
-            android:name=".DetailActivity"
+            android:name=".DetailDinosaurus"
             android:exported="false" />
         <activity
-            android:name=".Family"
+            android:name=".DinosaurusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
